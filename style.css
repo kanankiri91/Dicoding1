@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #CBE4DE;
+    position: sticky;
+    top: 0;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+main{
+    overflow: auto;
+    background-color: #2C3333;
+    padding-bottom: 50px;
+}
+.titleberanda{
+    color: #2E4F4F;
+    font-size: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+header nav ul li a{
+    color: #2E4F4F;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+header nav ul li a:hover{
+    background-color: #fffafa;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000;
+    transition: .3s;
+}
+article{
+    float: left;
+    width: 50%;
+}
+aside{
+    float: right;
+    width: 50%;
+}
+
+.beranda{
+    padding: 200px 10% 90px 4px;
+    text-align: right;
+}
+.beranda h4{
+    font-size: 30px;
+    color: #2E4F4F;
+}
+.beranda h1{
+    font-size: 35px;
+    color: #0E8388;
+}
+.beranda h5{
+    font-size: 20px;
+    color: #2E4F4F;
+}
+.about{
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.about h2{
+    font-size: 50px;
+    color: #0E8388;
+    transform: translateY(75px);
+}
+.about p{
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: wavy;
+    color: #CBE4DE;
+    transform: translate(-50px,100px);
+}
+.image{
+    padding: 10%;
+}
+.image img{
+    width: 100%;
+    padding: 50px;
+    padding-top: 75px;
+    border-radius: 50px;
+
+}
+.image2{
+    padding: 20px;
+    width: 40%;
+    width: 350px;
+    height: 350px;
+    line-height: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.image2 img{
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+}
+button{
+	background-color:#537FE7;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    transform: translateY(35px);
+}
+button:hover{
+	background-color: #0E8388;
+	cursor: pointer;
+}
+footer{
+    background-color: #CBE4DE;
+    padding: 30px;
+    text-align: center;
+    color: #2C3333;;
+}
